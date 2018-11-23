@@ -15,3 +15,6 @@ img#banner {
 div#support img {
     max-width: 15em;
 }
+a#registration {
+  font-weight: bold;
+}
