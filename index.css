@@ -8,6 +8,9 @@ h1 {
 h2 {
   font-size: 1.4em;
 }
+a {
+  color: #0645ad;
+}
 img#banner {
   max-width: 100%;
   margin-bottom: 1em; 
