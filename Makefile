@@ -5,6 +5,6 @@ BUCKET := aisafetyunconference.info
 DISTRIBUTION := EQYLICGMIMYON
 
 deploy:
-	aws s3 sync . s3://$(BUCKET) --exclude "*" --include "*.html" --include "*.jpg" --include "*.css"
+	aws s3 sync . s3://$(BUCKET) --exclude "*" --include "*.html" --include "*.jpg" --include "*.css" --include "*.png"
 	aws cloudfront create-invalidation --distribution-id $(DISTRIBUTION) --paths '/*'
 
