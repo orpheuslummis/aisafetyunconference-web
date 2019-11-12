@@ -8,3 +8,5 @@ deploy:
 	aws s3 sync . s3://$(BUCKET) --exclude "*" --include "*.html" --include "*.jpg" --include "*.css" --include "*.png"
 	aws cloudfront create-invalidation --distribution-id $(DISTRIBUTION) --paths '/*'
 
+serve:
+	python3 -m http.server -b localhost
