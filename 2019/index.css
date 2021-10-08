@@ -1,0 +1,30 @@
+.container {
+  margin: 1.5em auto 1.5em auto;
+  max-width: 50em;
+}
+h1 {
+  font-size: 2.3rem;
+}
+h2 {
+  font-size: 1.6em;
+  margin-top: 1em;
+}
+h3 {
+  font-size: 1.2em;
+}
+a {
+  color: #0645ad;
+}
+img#banner {
+  max-width: 100%; 
+}
+div#support img {
+    max-width: 15em;
+}
+a#registration {
+  font-weight: bold;
+}
+
+#lastupdate {
+  font-size: .8rem;
+}
